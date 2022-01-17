@@ -48,7 +48,7 @@ class Users(Resource):
 
 
 # Add URL endpoints
-api.add_resource(Users, '/data')
+api.add_resource(Users, '/')
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
